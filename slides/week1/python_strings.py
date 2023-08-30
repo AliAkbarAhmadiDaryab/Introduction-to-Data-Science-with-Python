@@ -40,3 +40,11 @@ print(a.lower())
 # Strip()
 a = " Welcome to Python! "
 print(a.strip()) # returns "Hello, World!"
+
+# Replace
+a = "Welcome to Python!"
+print(a.replace("P", "D"))
+
+# Split
+a = "Welcome to Python!"
+print(a.split(",")) 
