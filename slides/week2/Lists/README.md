@@ -42,5 +42,7 @@ list4 = [True, 2, "cherry"]
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
 ```
+برای اطلاعات بیشتر در مورد میتود های مختلف لیست به لینک ذیل مراجعه کنید
 
+https://www.w3schools.com/python/python_lists_methods.asp
 </div>
