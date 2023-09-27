@@ -2,8 +2,15 @@ def my_function():
   print("Hello from a function")
   
 # How to call function
+# Global Variable
 def my_function():
   print("Hello from a function")
+
+def sum2num(a, b):
+  z = a + b
+  return z
+
+print(sum2num(8, 8))
 
 my_function()
 
@@ -29,7 +36,7 @@ def my_function(*kids):
 my_function("Emil", "Tobias", "Linus")
 
 # Keywords arguments
-def my_function(child3, child2, child1):
+def my_function(child3, child2, child1=1):
   print("The youngest child is " + child3)
 
 my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
@@ -82,4 +89,4 @@ def tri_recursion(k):
     result = 0
   return result
 
-print(f"\n\nRecursion Example Results {tri_recursion(6)}")
+print(f"\n\nRecursion Example Results {tri_recursion(3)}")
