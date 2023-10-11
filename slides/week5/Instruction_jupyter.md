@@ -11,7 +11,7 @@ conda --version
 
 Open a terminal/command prompt run the following command.  
 ```
-conda create --name myenv python=3.9
+conda create --name/-n myenv python=3.9
 ```
 Change the myenv with you preferred environment name.
 
